@@ -1,0 +1,66 @@
+/* 
+    Document   : plugin.css
+    Created on : Apr 30, 2014, 11:22:16 AM
+    Author     : purab
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#dsAssetsImagesDiv{
+    width: 460px;
+}
+#dsCommonImagesDiv{
+    width: 460px;
+}
+
+.DscommonImagesDiv{
+    font-weight:bold;
+}
+.dsimgcontainerdiv{
+    display: table-cell !important;
+    text-align: center;
+    vertical-align: middle;    
+    min-height:145px;
+    height: 145px;
+    min-width:145px;
+    border:1px solid #000;    
+    opacity: 0.8;
+    filter: alpha(opacity=80);    
+}
+.dsimgcontainerdiv:hover {
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+
+.dsimgandradiocontainerdiv{
+    vertical-align:middle;
+    text-align:center;
+    height:165px;
+    min-width:145px;
+    margin:2px;
+    float:left;
+    display:table-cell;
+}
+.dsimgandradiocontainerdiv:hover {   
+}
+
+.dsimageblock{
+    max-width:145px;
+    max-height:145px;
+}
+.dsimageradio{
+    min-width: 145px;
+    text-align: left;    
+}
+#dsbrandimages{
+    font-weight:bold;
+    clear: both;
+    padding: 10px 0;
+}
